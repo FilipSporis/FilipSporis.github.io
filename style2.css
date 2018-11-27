@@ -1,0 +1,100 @@
+nav {
+	font-weight: bolder;
+}
+
+body,html {
+	width:100%;
+	height: 100%;
+}
+
+.background-image {
+	background-image: url(alpine.jpg);
+	background-size: cover;
+	margin: 20px 20px 20px 20px;
+
+}
+
+.btn {
+	background-color: #AFEF27;
+	
+}
+
+.col-lg-12 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	justify-content: space-between;
+	
+	
+
+}
+
+img {
+	border:1px solid #021a40;
+	transition:all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+
+h1 {
+	font-family: 'Indie Flower', cursive;
+	font-size: 5em;
+	font-weight: bold;
+	border:3px solid black;
+	border-radius:5px;
+	background-color:#A4DC00; 
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+
+}
+
+hr {
+	max-width: 250px;
+	border-width: 50px;
+	visibility: hidden;
+}
+
+.okvir {
+	display: flex;
+	justify-content: center;	
+	font-size:45px;
+	border: 2px;
+	border-radius: 18px;
+	border-style:solid;
+	padding:5px;
+	background-color: white;
+
+}
+
+strong {
+	display: flex;
+	justify-content:center;
+}
+
+strong:hover {
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+div.container.bordered {
+	text-align:center;
+	border:5px;
+	border-style: solid;
+	background-color: white;
+
+}
+
+em {
+	font-size: 20px;
+	
+}
+
+em:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}

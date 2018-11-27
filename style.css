@@ -1,0 +1,59 @@
+body,html {
+	width:100%;
+	height: 100%;
+
+}
+
+header.DinoWorld {
+  background-image: url("jungle.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+
+
+body {
+	font-family: 'Indie Flower', cursive;
+}
+
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: #F05F44;
+  visibility: hidden;
+}
+
+   
+
+
+.bulma {
+  color: rgba(255, 255, 255, 1);
+}
+
+
+header.DinoWorld hr { 
+  margin-top: 200px;
+  margin-bottom: 300px; 
+}
+
+
+header.DinoWorld h1 {
+  font-size: 4rem;
+  background: #30973870;
+  padding: 6px;
+  margin: -45px 209px 30px 198px;
+  border-radius: 60px;
+  
+ 
+ }
+
+.btn {
+	border-radius: 20px;
+	padding: 20px;
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
+	text-transform: uppercase;
+}
+
